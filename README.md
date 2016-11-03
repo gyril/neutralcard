@@ -32,7 +32,12 @@ This time it's your money, and it makes all the difference
 6. Market trends
   1. Regulation
   2. Disruption & innovation
-  3. Customer demand
+  3. Customer demand for credit cards
   4. Interest-rate pressure
 
-7. Is there a different way to get the same result?
+Unanswered questions:
+* Is there a different way to get the same result?
+* How big is the opportunity / market?
+* What else can be appealing about this product? (personal branding, credit building)
+* What else can be appealing about this company?
+* 
