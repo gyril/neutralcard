@@ -3,21 +3,21 @@
 1. Why do we have credit cards?
   1. Historical perspective
 
-##Origins in customer loyalty programs
+**Origins in customer loyalty programs**
 
 From an all-cash world at the beginning of the 20th century, big brands in retail (department stores, automotive/fuel companies, etc.) were looking for ways to improve customer loyalty.
 
-##An innovation for bookkeepers
+**An innovation for bookkeepers**
 
 In the 1920s in the United States, various stores started issuing cards for their customers to facilitate bookkeeping. The user experience was as follows: a metal-card with user information (name, city, state) embossed was printed and kept at the store. When a customer came in for a purchase, they signed a paper, the clerk would compare signature to the one on the card, and if it matched, they would use the embossement to print their information on the ledger. The idea was to reduce copying errors.
 
-##Payments on the road
+**Payments on the road**
 
 First with fuel, then quickly with plane tickets, the transportation industry was quick to harness the power of the credit cards. "Buy now, pay later" 
 
 2. What is the difference with a debit card?
 
-##It's your money this time, and it makes all the difference
+**It's your money this time, and it makes all the difference**
 
   * Why France has such a small credit card market?
 As an introduction, I'll just quote this from Senator Elizabeth Warren:
