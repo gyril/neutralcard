@@ -1,6 +1,7 @@
 # Carbon Neutral Credit Card
 
 1. Why do we have credit cards?
+
   1. Historical perspective
 
 **Origins in customer loyalty programs**
@@ -14,6 +15,7 @@ In the 1920s in the United States, various stores started issuing cards for thei
 **Payments on the road**
 
 First with fuel, then quickly with plane tickets, the transportation industry was quick to harness the power of the credit cards. "Buy now, pay later" 
+
 
 2. What is the difference with a debit card?
 
