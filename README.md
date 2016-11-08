@@ -41,6 +41,8 @@ Table of Contents
     - Customer demand for credit cards
     - Interest-rate pressure
     
+
+
 Unanswered questions:
 + Is there a different way to get the same result?
 + What else can be appealing about this product? (personal branding, credit building)
