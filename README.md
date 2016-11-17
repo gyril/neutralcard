@@ -98,6 +98,7 @@ An enlightening quote from Senator Elizabeth Warren:
 But some of it also has to do with a peculiar combination of technology and regulations. Credit card companies have always claimed that their business had an inherent risk and therefore should perceive an interchange fee to cover for this risk. French banks, nudged by a regulator that wasn't too keen on imposing a 3%+ fee on transactions to merchants, instead tried to lower the fraud risk, and came up with many innovations: the chip card (Gemalto invented it and it's not becoming a worldwide standard), the PIN code, the 3DSecure online payments, etc. all served to make cards safer.
 
 [0] http://www.indexcreditcards.com/finance/creditcardstatistics/credit-card-use-in-france.html
+
 [1] http://www.pbs.org/wgbh/pages/frontline/shows/credit/interviews/warren.html
 
 #How the networks came to be
@@ -112,9 +113,11 @@ There are several networks today that can be considered consequential. The most 
 Basically, the banks act as the distribution layer for the network. The cardholder is the customer of an issuing bank. The issuing bank opens an account for the cardholder, and gives her a card so he can transacts with merchants. On the other side, the merchant is the customer of an acquiring bank (often through the intermediary of an "acquirer", a software and/or hardware provider like Stripe, Braintree, Square, etc.). The network organizer makes sure that information about cardholers' accounts is always readily available to acquiring banks, so that cardholders and merchants can transact at all times.
 
 **Special relationship with banks**
+
 Before their IPOs (both in 2006), Visa and MasterCard were owned by the banks that had united over time to create the networks. This explains why in so many ways the relationship between the networks and the bank is strong, symbiotic, and hard to disrupt. Banks are the only customers of Visa and MC: without the banks, credit and debit cards would never be distributed and Visa and MC would have no network. It's my opinion that the interchange fee really acts as a kickback from the networks to the bank to thank them for their efforts in distributing the cards. Even though the banks' customers are the cardholders and the merchants, by the nature of the network effects enjoyed by Visa and MC, and by the nature of the high barriers to entry in the banking indsutry, it is not in the interest of the banks to challenge the networks. In short, when the banks win the networks win, and vice versa. 
 
 **Examples**
+
 Visa and MasterCard are the most successful networks. Both have grown immensely in the last decade, growing more than 5 and 3 times in market cap respectively; both are international networks. 
 
 To provide some perspective, Visa processed $4.9 trillion dollars in 2015, in 71 billion transactions; credit accounts for 63% of volume but only 36% of cards in circulation; [0]. 
@@ -129,6 +132,7 @@ UnionPay would be the Chinese equivalent and RuPay the Indian equivalent, althou
 As the name suggests, in 3-party networks the network organizer sits directly between the cardholder and the merchant. Balance, authorization, settlement are all taken care of by the network organizer. There is no competition between issuers, as the network organizer has a monopoly on the issuance of cards. Those networks are simpler in nature, but they have to build their own distribution network. I don't think there is a big opportunity to partner with them, both because they have smaller networks and because their networks are less open, but it's still worth mentioning them for the sake of completeness.
 
 **Examples**
+
 *American Express*: the biggest 3-party network, Amex is a pioneer in the credit card industry (started issuing in 1958). American Express interchange is usually highest, neighboring 4%, but they get away with it by bringing to merchants customers of high value: business customers, who tend to both spend more and be more loyal.
 
 *Discover*: in 4-party schemes, the merchants are the ones suffering the most. They cannot display different prices for customers paying in cash and customers paying with cards, so they have to eat the fee, which heavily weighs on their (usually thin) margins. The Discover network is their ripost. Launched by Sears in 1985, it started with no annual fee for the customer and the first possibility of a cashback bonus; it also had lower fees for merchants (I believe it was a fixed fee and not a percentage, but cannot find a source for that). Discover claims to be the 3-rd largest network by merchant acceptance, but both their volume and growth are significantly slower than their competitors.
@@ -156,7 +160,9 @@ The merchant discount is used to pay all the intermediaries:
 - Then (sometimes) comes the cardholder. Credit cards (and in rare cases debit cards) have rewards program that give back either cash, miles, or other forms of retribution to the cardholder. These rewards are financed with the interchange fee, at the discretion of the issuing bank and according to the pertaining Cardholder Agreement.
 
 [0] https://docs.adyen.com/legal/adyen-pricing
+
 [1] https://stripe.com/us/pricing
+
 [2] https://usa.visa.com/dam/VCOM/download/merchants/visa-usa-interchange-reimbursement-fees.pdf
 
 **Difference between credit cards and debit cards transactions**
@@ -172,11 +178,27 @@ In Europe, since 2015, caps are enacted on the interchange fee for both credit (
 *As a result, I believe that it is unrealistic to try to fund a debit program solely on interchange fees in the US, or any kind of program in the EU.*
 
 [0] https://www.nerdwallet.com/blog/banking/durbin-amendment-explained/
+
 [1] http://europa.eu/rapid/press-release_IP-15-4585_en.htm
 
 ##Fees
+
+Almost every card in the US come with many fees attached to their usage. Some banks claim that recent regulatory changes have forced them to apply new fees to recoup their losses.
+- International transactions fees: Visa and MasterCard are usually accepted internationally, but on international payments a fee is often applied *on top of the exchange rate applied*.
+- overdraft fees (debit) or over-the-limit fees: are applied when a cardholer spends more than he's allowed to (below zero for debit accounts, above the credit limit for credit cards).
+- ATM fees: in the US it is extremely common to charge a fee on ATM withdrawals, as different networks of ATM are operated by different companies that rarely work with one another to lower the fees for the consumers.
+- Maintenance fees (debit), annual fees (credit): due to the lowered interchange on debit, maintenance fees are on the rise, while annual fees on credit card vary from card to card. 
+- Balance transfer fee (credit): usually between 3% and 4%, it's the cost incurred to move a balance from one card to another.
+
 ##Loan interests
-##Loss-leader commodity for banks and credit institutions
+
+This section only applies to credit cards. Financial institutions extending credit to their consumers charge them an interest rate on those loans. Credit card loans are one of the worst types of credit you can get, as not only the APR are extremely high when compared to mortgages, student loans, car loans, etc., they are also variable in time, and can become extremely predatory. 
+
+Basically the idea is that, when a cardholder's risk rises (eg. they're late on the payment of one of their cards), the other institutions that provided them with other cards have the right to *rise* the APR. Some cards offer an "introductory" 0% APR, 
+
+"Normal" APR ranges from 15%-25% for cardholder with good FICO score, and can go up to 500% (meaning you must pay interests of 40% of your debt *every month*).
+
+Credit card companies claim that they need this tool to make sure that everyone can get access to credit, but regulators retort that this can allow for predatory behaviour: it's in the credit institution's best interest to target demographics they know won't be able to meet their monthly payments, so they can extract as much interest from them before they are forced to default and go bankrupt. This ongoing debate hasn't led to a cap on APR yet.
 
 #Launching a new credit card
 
