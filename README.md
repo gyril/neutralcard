@@ -24,6 +24,7 @@ Table of Contents
     - Fees
     - Loan interests
 5. [Launching a new credit card](#launching-a-new-credit-card)
+    - [As a Financial Institution](#as-a-financial-institution)
     - Partnering with a bank
         + Examples
         + Cost and conditions
@@ -225,26 +226,33 @@ Another path would be to either buy an existing FI (FWIW, the people behind arch
 **What would the bank do anyway**
 
 - Marketing
+
 Step 1, and also the reason why the banks receive the interchange fee in the first place, is to recruit cardholders. The classic ways to recruit cardholders include mass mailing of applications, emailing, branded partnerships, etc. The commonality of these tactics are that they deal with huge volumes.
 
 - Compliance
+
 There is a lot of regulations & duties associated with hosting a credit card program as a FI. 
 
     + KYC & AML
+
     In the US, it's the FI's duty to know who their customers are (KYC = Know Your Customer). The intent is to prevent money laundering or the funding of terrorism, so these regulations are sometimes found under the term "AML", for Anti-Money Laundering. As a result, every bank account opening must be preceded by a certain amount of due diligence. There is no clear guideline as to what info should be obtained during the due diligence, but it usually includes name, address, social security number, and other questions that will prove beyond reasonable doubt that the person opening the account is indeed who they claim to be. I know of at least one company in this space: [Blockscore](https://blockscore.com/) (they were in my YC batch, S14). This part is unlikely to be a blocker, but it's hard and painful and slows everything down.
 
     + Reporting duties
+
     All FI have reporting duties, where they demonstrate to the regulator that they're in good standing with the law and are thus not at risk of losing their banking licence. Between AML, Fair Lending, and risk structure, there is a lot of bureaucracy and paperwork to produce on a constant basis. I'm trying to find people to contact that could provide additional information (price, time, skills needed, etc.). Those two articles are good starting points: [here](http://www.pwc.com/us/en/financial-services/regulatory-services/bank-regulatory-compliance.html) and [here](http://www.mckinsey.com/business-functions/risk/our-insights/a-best-practice-model-for-bank-compliance).
 
 - Underwriting
+
 If this is credit we're talking about, the money is actually lent by the FI and must be repaid by the cardholder. This is regulated, capital-intensive, and data-intensive, as the profitability of the business will depend on the models designed for underwriting. Too much risk and the FI goes bankrupt, too little risk and the FI doesn't make money.
 
 However, because the goal of the card.EARTH is not to generate revenue from interests, ideally we would want cardholders to always have the ability to pay their balance in full. This is uncommon in the credit industry, as the "deadbeats" (cardholders who always pay their balance) are way less valuable than late-payers and FI would rather have a good portion of customers in debt. If we are the FI it won't be a problem, but if we're the Program Manager then our incentives might not be aligned with the FI's.
 
 ***Fraudulent activity***
+
 One thing that should be taken into account is the risk of fraudulent activity (either a stolen card, or a card opened by someone under someone else's name). In debit, the law states that the FI is always liable; the cardholder can only be liable for up to $50, but FI usually waive that liability. In credit, it's a bit different from a regulatory standpoint but the result is the same: because the transaction is settled with the FI's money, it's the FI's duty to recoup the loss. It's important to have a clear idea of the exposure of a program and be able to tell how the fraudulent activity will be financed.
 
 - Issuing & processing
+
 The technical part is not hard in a strict sense, but it has to work all the time. I have never done it myself, but I personnally know people who have (either ex contractors from Marqeta or YC batchmates from [Shift](https://www.shiftpayments.com/)), so it shouldn't be a blocker, but it's not trivial either.
 
 
