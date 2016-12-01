@@ -233,11 +233,11 @@ Step 1, and also the reason why the banks receive the interchange fee in the fir
 
 There is a lot of regulations & duties associated with hosting a credit card program as a FI. 
 
-* KYC & AML
+\    + KYC & AML
 
 In the US, it's the FI's duty to know who their customers are (KYC = Know Your Customer). The intent is to prevent money laundering or the funding of terrorism, so these regulations are sometimes found under the term "AML", for Anti-Money Laundering. As a result, every bank account opening must be preceded by a certain amount of due diligence. There is no clear guideline as to what info should be obtained during the due diligence, but it usually includes name, address, social security number, and other questions that will prove beyond reasonable doubt that the person opening the account is indeed who they claim to be. I know of at least one company in this space: [Blockscore](https://blockscore.com/) (they were in my YC batch, S14). This part is unlikely to be a blocker, but it's hard and painful and slows everything down.
 
-* Reporting duties
+\    + Reporting duties
 
 All FI have reporting duties, where they demonstrate to the regulator that they're in good standing with the law and are thus not at risk of losing their banking licence. Between AML, Fair Lending, and risk structure, there is a lot of bureaucracy and paperwork to produce on a constant basis. I'm trying to find people to contact that could provide additional information (price, time, skills needed, etc.). Those two articles are good starting points: [here](http://www.pwc.com/us/en/financial-services/regulatory-services/bank-regulatory-compliance.html) and [here](http://www.mckinsey.com/business-functions/risk/our-insights/a-best-practice-model-for-bank-compliance).
 
