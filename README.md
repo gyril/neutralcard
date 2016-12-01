@@ -247,7 +247,7 @@ If this is credit we're talking about, the money is actually lent by the FI and 
 
 However, because the goal of the card.EARTH is not to generate revenue from interests, ideally we would want cardholders to always have the ability to pay their balance in full. This is uncommon in the credit industry, as the "deadbeats" (cardholders who always pay their balance) are way less valuable than late-payers and FI would rather have a good portion of customers in debt. If we are the FI it won't be a problem, but if we're the Program Manager then our incentives might not be aligned with the FI's.
 
-- **Fraudulent activity**
+- Fraudulent activity
 
 One thing that should be taken into account is the risk of fraudulent activity (either a stolen card, or a card opened by someone under someone else's name). In debit, the law states that the FI is always liable; the cardholder can only be liable for up to $50, but FI usually waive that liability. In credit, it's a bit different from a regulatory standpoint but the result is the same: because the transaction is settled with the FI's money, it's the FI's duty to recoup the loss. It's important to have a clear idea of the exposure of a program and be able to tell how the fraudulent activity will be financed.
 
